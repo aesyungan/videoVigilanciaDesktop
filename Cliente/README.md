@@ -1,5 +1,5 @@
-Antes de correr esta aplicacion debe estr corriendo el servidor socket
-Es necesario instalar lo siguiente en su raspberry
+# Antes de correr esta aplicacion debe estr corriendo el servidor socket
+# Es necesario instalar lo siguiente en su raspberry
 ```
 sudo apt-get install fswebcam
 sudo apt-get install qv4l2
