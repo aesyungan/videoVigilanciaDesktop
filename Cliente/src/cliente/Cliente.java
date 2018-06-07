@@ -31,7 +31,7 @@ public class Cliente {
         try {
             // System.setProperty("org.slf4j.simpleLogger.defaultLogLevel", "info");
             // System.setProperty("org.slf4j.simpleLogger.log.com.github.sarxos.webcam.ds.v4l4j", "trace");
-            // Webcam.setDriver(new V4l4jDriver());
+             Webcam.setDriver(new V4l4jDriver());
         } catch (Exception e) {
             System.out.println("error ->" + e.getMessage());
         }
@@ -59,8 +59,8 @@ public class Cliente {
             System.out.println("Connecting...");
 
             Webcam webcam = Webcam.getDefault();
-            webcam.setViewSize(new Dimension(176, 144));//windows
-            // webcam.setViewSize(new Dimension(160, 120));//raspberry
+            //webcam.setViewSize(new Dimension(176, 144));//windows
+             webcam.setViewSize(new Dimension(160, 120));//raspberry
             webcam.open();
             while (true) {
                 try {
