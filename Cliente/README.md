@@ -12,7 +12,7 @@ sudo apt-get install qv4l2
 sudo apt-get install libjpeg8-dev 
 sudo apt-get install libv4l-dev
 ```
-ejecutar el jar que se encuentra en la carpeta dist
+ejecutar el jar que se encuentra en la carpeta Cliente/dist
 ```
  java -jar Cliente.jar
  ```
@@ -20,7 +20,7 @@ ejecutar el jar que se encuentra en la carpeta dist
  ```
  192.168.43.105
  ```
- luego nos pedira el puerto este puerto es el 
+ luego nos pedira el puerto: elpuerto por defecto es el  
  ```
  8888
  ```
