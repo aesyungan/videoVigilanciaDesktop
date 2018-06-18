@@ -1,5 +1,10 @@
 ## Antes de ejecutar esta aplicacion debe estar corriendo el servidor socket
- Es necesario instalar lo siguiente en su raspberry
+Es necesario instalar lo siguiente en su raspberry
+instalar java 
+```
+sudo apt-get install oracle-java8-jdk
+```
+driver de la webcam
 ```
 sudo apt-get install fswebcam
 sudo apt-get install qv4l2
